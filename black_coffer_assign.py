@@ -21,3 +21,15 @@ for URL_ID, URL  in enumerate(input_file['URL']):
            string =  para.get_text()
            f.write(string)
 ## Browser giving Problem Having Trouble will fix it soon.
+from typing import *
+
+def countPairs(a: List[int], n: int, k: int) -> int:
+	T = int(input())
+    for i in range(T):
+        count =0
+        N, k = list(map(input().split(), int))
+        array = list(map(input().split(), int))
+        for i in array:
+            for j in array:
+                if sum(i,j)/2 >= k: count = count+1
+        (count)
