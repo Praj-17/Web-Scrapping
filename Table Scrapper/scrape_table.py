@@ -11,7 +11,6 @@ def scrape():
 
     browser.get(url)
     soup = BeautifulSoup(browser.page_source)
-    nav = browser.find_element_by_id("gld")
     tables = soup.find_all('table')
     df = pd.read_html(str(tables[0]), index_col= None)
     df = pd.DataFrame(df[0], index =None)
@@ -22,7 +21,7 @@ def scrape():
 
 if __name__ == '__main__':
     scrape()
-    schedule.every(0.5).minutes.do(scrape)
+    schedule.every(5).minutes.do(scrape)
     while True:
         schedule.run_pending()
         time.sleep(1)
