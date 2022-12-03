@@ -4,7 +4,7 @@ import requests
 url = 'https://www.engineersedge.com/design_guidelines.htm'
 def get_text(url):
     response = requests.get(url)  
-    simple_soup = BeautifulSoup(response.text, 'html.parser') 
+    simple_soup = BeautifulSoup(response.text, 'html.parser')
     paras = simple_soup.find_all('p')
     file_name = url.split('/')[-1]
     
