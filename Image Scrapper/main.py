@@ -13,7 +13,7 @@ if __name__ == "__main__":
     image_path = os.path.normpath(os.path.join(os.getcwd(), 'photos'))
 
     #Add new search key into array ["cat","t-shirt","apple","orange","pear","fish"]
-    search_keys= ['modi', 'elon musk', 'bill gates', 'ms dhoni', 'virat kohli', 'arnab goswami', 'nambi narayan', 'abdul kalam', 'rakesh jhunjhunwala', 'warren buffet', 'charlie munger', 'justin bieber', 'jeff bezos', 'goutam adani', 'mukesh ambani', 'ratan tata', 'kapil sharma', 'daya bhabhi', 'jethalal', 'bhide bhai', 'babitaji', 'mahatma gandhi', 'madhvi bhabhi', 'bagha', 'nattu kaka', 'bavari', 'taarak mehta real', 'shailesh lodha', 'iyyer bhai', 'popatlal', 'tipendra gada', 'alia bhat']
+    search_keys= ['Elephants in jungle']
 
     #Parameters
     number_of_images = 2
