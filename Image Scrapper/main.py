@@ -13,7 +13,7 @@ if __name__ == "__main__":
     image_path = os.path.normpath(os.path.join(os.getcwd(), 'photos'))
 
     #Add new search key into array ["cat","t-shirt","apple","orange","pear","fish"]
-    search_keys= ['Elephants in jungle']
+    search_keys= ['Elephants on road']
 
     #Parameters
     number_of_images = 2
